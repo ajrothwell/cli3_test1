@@ -7,12 +7,21 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@cityofphiladelphia/mapboard": "https://github.com/CityOfPhiladelphia/mapboard#f967a3bffd11aa53a1e607b21a67d425be0155a7",
+    "@sentry/browser": "4.3.4",
+    "accounting": "^0.4.1",
+    "axios": "^0.18.0",
+    "moment": "^2.21.0",
+    "phila-standards": "^1.0.2",
     "vue": "^2.5.22"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-service": "^3.4.0",
-    "vue-template-compiler": "^2.5.21"
+    "babel-plugin-dynamic-import-node-babel-7": "^2.0.7",
+    "vue-template-compiler": "^2.5.21",
+    "webpack-visualizer-plugin": "^0.1.11"
   },
   "postcss": {
     "plugins": {
