@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "dev-build": "vue-cli-service build --mode development"
   },
   "dependencies": {
-    "@cityofphiladelphia/mapboard": "https://github.com/CityOfPhiladelphia/mapboard#f967a3bffd11aa53a1e607b21a67d425be0155a7",
+    "@cityofphiladelphia/mapboard": "https://github.com/CityOfPhiladelphia/mapboard#76a3505b964e79279ecaf368e4a0d270f9552d9d",
     "@sentry/browser": "4.3.4",
     "accounting": "^0.4.1",
     "axios": "^0.18.0",
@@ -16,10 +17,8 @@
     "vue": "^2.5.22"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-service": "^3.4.0",
-    "babel-plugin-dynamic-import-node-babel-7": "^2.0.7",
     "vue-template-compiler": "^2.5.21",
     "webpack-visualizer-plugin": "^0.1.11"
   },

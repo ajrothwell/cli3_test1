@@ -117,7 +117,7 @@ mapboard({
   // plugin: true,
   panels: [
     'topics',
-    'map'
+    // 'map'
   ],
   router: {
     enabled: true
@@ -159,7 +159,7 @@ mapboard({
   imageOverlayGroups,
   legendControls,
   cyclomedia: {
-    enabled: true,
+    enabled: false,
     measurementAllowed: false,
     popoutAble: true,
   },
