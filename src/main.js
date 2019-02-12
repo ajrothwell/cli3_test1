@@ -117,7 +117,7 @@ mapboard({
   // plugin: true,
   panels: [
     'topics',
-    // 'map'
+    'map'
   ],
   router: {
     enabled: true
